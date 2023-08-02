@@ -1,0 +1,45 @@
+footer {
+  width: 100vw;
+  height: 400px;
+
+  background-color: #fdf0d5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+}
+
+.footer__form-email {
+  border: 1px solid silver;
+  border-radius: 10px;
+
+  padding: 5px 10px;
+}
+
+.footer__form-message {
+  padding: 5px 10px;
+
+  height: 200px;
+  resize: none;
+
+  border: 1px solid silver;
+  border-radius: 10px;
+}
+
+.footer__description {
+  width: 350px;
+  height: 270px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 12px;
+}

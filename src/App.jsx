@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />;
       <About />;
       <Projects />;
+      <Footer />;
     </>
   );
 }

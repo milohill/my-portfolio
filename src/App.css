@@ -1,7 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #003049;
 
   margin: 0;
+  padding: 0;
 
   display: flex;
   flex-direction: column;
