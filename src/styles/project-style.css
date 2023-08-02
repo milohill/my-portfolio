@@ -1,0 +1,43 @@
+h2,
+h3 {
+  margin: 0;
+}
+
+.projects {
+  color: white;
+
+  width: 1000px;
+  height: 1300px;
+
+  margin: 0 auto;
+}
+
+.projects__project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+  padding: 40px;
+}
+
+.projects__project-image {
+  width: 650px;
+  height: 450px;
+
+  border-radius: 10px;
+}
+
+.projects__project-image-container {
+  position: relative;
+}
+
+.projects__project-image_background {
+  background-color: #669bbc;
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  z-index: -1;
+}

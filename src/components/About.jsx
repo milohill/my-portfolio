@@ -12,7 +12,7 @@ export default function About() {
           src={AboutImage250}
           srcSet={`${AboutImage400} 400w,
       ${AboutImage250} 250w`}
-          sizes="50vw"
+          sizes="30vw"
           alt="about image"
         />
         <div className="about__image about__image_background"></div>
