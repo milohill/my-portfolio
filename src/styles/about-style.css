@@ -1,20 +1,22 @@
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
 .about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 120px;
+  color: white;
 
   padding: 40px;
 
   width: 1000px;
 
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
 }
 
 .about__image-container {
@@ -38,8 +40,6 @@ h3 {
   z-index: -1;
 }
 
-.about__text {
-  color: white;
-
+.about__text-container {
   width: 300px;
 }
