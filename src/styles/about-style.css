@@ -1,0 +1,47 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+
+  padding: 40px;
+
+  width: 1000px;
+
+  margin: 0 auto;
+}
+
+.about__image-container {
+  position: relative;
+}
+
+.about__image {
+  width: 400px;
+  height: 600px;
+
+  border-radius: 10px;
+}
+
+.about__image_background {
+  background-color: #669bbc;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+
+  transform: translateX(15px) translateY(15px);
+}
+
+.about__text {
+  color: white;
+
+  width: 300px;
+}
