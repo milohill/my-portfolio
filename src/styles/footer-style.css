@@ -7,7 +7,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 .footer__form {
@@ -43,7 +43,7 @@ footer {
 
 .footer__description {
   width: 350px;
-  height: 270px;
+  height: 230px;
 }
 
 .footer__icons {
