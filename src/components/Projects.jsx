@@ -7,7 +7,7 @@ import ProjectImageTwo700 from '../assets/project-image-2-700.jpg';
 
 export default function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>Projects</h1>
       <div className="projects__container">
         <div className="projects__project-container">

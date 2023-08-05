@@ -5,7 +5,7 @@ import AboutImage250 from '../assets/about-image-250.jpg';
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1>About Me</h1>
       <div className="about__container">
         <div className="about__image-container">

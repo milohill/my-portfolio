@@ -6,7 +6,7 @@ import TwitterIcon from '../assets/twitter.svg';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <form className="footer__form">
         <h1>Contact Me</h1>
         <input
