@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/project-style.css';
+import '../styles/projects-style.css';
 import ProjectImageOne300 from '../assets/project-image-1-300.jpg';
 import ProjectImageOne700 from '../assets/project-image-1-700.jpg';
 import ProjectImageTwo300 from '../assets/project-image-2-300.jpg';
